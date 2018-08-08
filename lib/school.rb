@@ -21,7 +21,8 @@ def add_student(name, grade)
 
 end
 
-
+def grade 
+end
 
 def sort
   new_hash = {}
