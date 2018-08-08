@@ -26,12 +26,14 @@ def grade(grade)
 end
 
 def sort
-  new_hash = {}
+  new_roster = {}
   roster.each do |grade, students|
-    new_hash[grade] = values.sort
+    new_hash[grade] =values.sort
   end
-  new_hash
+  new_roster
 end
+
+
 
 
 end
