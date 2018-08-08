@@ -21,7 +21,7 @@ def add_student(name, grade)
 
 end
 
-def grade
+def grade(grade)
   roster[grade]
 end
 
